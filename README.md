@@ -6,7 +6,7 @@ This project is an interactive web form to collect user information for a person
 
 1. Clone the repository:
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/Aditya3425-Fst/Jewellery-Customization-Form
 
 2. Navigate to the project directory:
 
