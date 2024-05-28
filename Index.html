@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery Customization Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Customize Your Jewellery</h1>
+        <form id="jewelleryForm">
+            <label for="occasion">Occasion:</label>
+            <select id="occasion" name="occasion" required>
+                <option value="">Select Occasion</option>
+                <option value="engagement">Engagement</option>
+                <option value="anniversary">Anniversary</option>
+                <option value="birthday">Birthday</option>
+                <option value="daily-wear">Daily Wear</option>
+            </select>
+
+            <label>Gift or Personal Purchase:</label>
+            <label><input type="radio" name="purchase" value="gift" required> Gift</label>
+            <label><input type="radio" name="purchase" value="personal" required> Personal Purchase</label>
+
+            <label for="gender">Gender:</label>
+            <div id="gender">
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female" required> Female</label>
+                <label><input type="radio" name="gender" value="other" required> Other</label>
+            </div>
+
+            <label>Age Group:</label>
+            <label><input type="radio" name="ageGroup" value="18-25" required> 18-25</label>
+            <label><input type="radio" name="ageGroup" value="26-35" required> 26-35</label>
+            <label><input type="radio" name="ageGroup" value="36-45" required> 36-45</label>
+            <label><input type="radio" name="ageGroup" value="46+" required> 46+</label>
+
+            <label for="religion">Religion (Optional):</label>
+            <input type="text" id="religion" name="religion">
+
+            <label for="jewelleryType">Type of Jewellery:</label>
+            <select id="jewelleryType" name="jewelleryType" required>
+                <option value="">Select Type</option>
+                <option value="rings">Rings</option>
+                <option value="necklaces">Necklaces</option>
+                <option value="pendants">Pendants</option>
+            </select>
+
+            <label for="budget">Budget:</label>
+            <select id="budget" name="budget" required>
+                <option value="">Select Budget</option>
+                <option value="below-500">Below $500</option>
+                <option value="500-1000">$500 - $1000</option>
+                <option value="1000-5000">$1000 - $5000</option>
+                <option value="5000+">Above $5000</option>
+            </select>
+
+            <label for="outfitImage">Would you like to match your jewellery with an outfit? (Optional):</label>
+            <input type="file" id="outfitImage" name="outfitImage" accept="image/*">
+            <img id="outfitPreview" src="#" alt="Outfit Image Preview" style="display:none;">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
