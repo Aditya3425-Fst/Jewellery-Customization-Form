@@ -15,9 +15,9 @@ cd jewellery-customization-form
 3. Open the index.html file in your preferred web browser.
 
 ## Project Structure
-index.html: The HTML file containing the form structure.
-styles.css: The CSS file for styling the form.
-script.js: The JavaScript file for adding interactivity.
+index.html: The HTML file containing the form structure.<br>
+styles.css: The CSS file for styling the form.<br>
+script.js: The JavaScript file for adding interactivity.<br>
 
 ## Features
 
